@@ -1,18 +1,13 @@
 ---
-const {title, bcSrc,imgSrc, releaseDate, Link} = Astro.props;
+const {title, BcPlayer,imgSrc, releaseDate, BcLink, BcTitle} = Astro.props;
 ---
-<section class="bg-black rounded-xl p-2">
-    <img src={imgSrc} alt="" class="h-auto max-w-72 sm:max-w-96 rounded-t-xl mx-auto">
+<section class="bg-purple-900 rounded-xl p-2">
+    <img src={imgSrc} alt="" class="h-auto max-w-72 sm:max-w-96 rounded-lg mx-auto">
     <h3 class="text-white py-2 px-2">
         {title}
     </h3>
     <p class="text-white px-3 pb-4">
         Release Date: {releaseDate}
     </p>
-    
-    <a href={Link} target="_blank" class="block text-white px-3 pb-2">
-        Download 
-    </a>
-
-    <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1902646536/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://fortherock.bandcamp.com/album/stand-united">Stand United by For The Rock</a></iframe>
+    <iframe style="border: 0; width: 100%; height: 120px;" src={BcPlayer} seamless><a href={BcLink}>{BcTitle}</a></iframe>
 </section>
