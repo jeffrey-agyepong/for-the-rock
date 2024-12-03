@@ -1,3 +1,12 @@
+---
+import '@fontsource/cinzel-decorative';
+import '@fontsource-variable/cinzel';
+
+import '../styles/global.css'
+import Footer from '../components/Footer/Footer.astro';
+import Header from '../components/Header/Header.astro';
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -5,10 +14,13 @@
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>For The Rock</title>
 	</head>
 	<body>
+		<Header />
 		<slot />
+		<script is:inline src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+		<Footer/>
 	</body>
 </html>
 

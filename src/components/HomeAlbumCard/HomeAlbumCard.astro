@@ -1,0 +1,15 @@
+---
+const {title, imgSrc, releaseDate, Link} = Astro.props;
+---
+<section class="bg-black rounded-xl">
+    <img src={imgSrc} alt="" class="h-auto max-w-96 rounded-t-xl">
+    <h3 class="text-white py-2 px-3">
+        {title}
+    </h3>
+    <p class="text-white px-3 pb-4">
+        Release Date: {releaseDate}
+    </p>
+    <a href={Link} target="_blank" class="block text-white px-3 pb-2">
+        Download 
+    </a>
+</section>
