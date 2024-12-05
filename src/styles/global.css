@@ -39,7 +39,7 @@ body {
 
 .cs-title {
     font-size: var(--headerFontSize);
-    font-weight: 900;
+    font-weight: 700;
     line-height: 1.2em;
     text-align: inherit;
     max-width: 43.75rem;
@@ -63,12 +63,6 @@ body {
     font-family: 'Poppins', sans-serif;
     background: rgb(53, 53, 53);
 }
-h1,
-h2,
-h3 {
-  font-weight: 600;
-}
-
 .bg-yellow-sp{
     background: #D3A617;
 }
