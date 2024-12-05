@@ -60,11 +60,15 @@ body {
                             
 
 body {
-  font-family: "Cinzel Variable", serif;
-  background: rgb(53, 53, 53);
+    font-family: 'Poppins', sans-serif;
+    background: rgb(53, 53, 53);
 }
 h1,
 h2,
 h3 {
-  font-family: "Cinzel Decorative", system-ui;
+  font-weight: 600;
+}
+
+.bg-yellow-sp{
+    background: #D3A617;
 }
