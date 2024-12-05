@@ -1,4 +1,5 @@
 ---
+import AlbumCard from '../components/AlbumCard/AlbumCard.astro';
 import PageBanner from '../components/Header/PageBanner.astro';
 import Hero from '../components/Hero/Hero.astro';
 import HomeAlbums from '../components/HomeAlbums/HomeAlbums.astro';
@@ -12,109 +13,20 @@ import Layout from '../layouts/Layout.astro';
 	<PageBanner pageTitle="Music"/>
 	<section id="cs-contact" class="bg-black">
 		<div class="container max-w-screen-lg mx-auto">
-		  <div class="sm:grid grid-cols-3 gap-8">
-			<div class="flex my-8 sm:my-0">
-			  <div class="bg-purple-800 p-2 rounded-lg">
-				<img
-				  src="https://ik.imagekit.io/boxhuwbys/for-the-rock-stand-united.webp?updatedAt=1733181683597"
-				  alt="Beyond The Grave - All Things Christian Deathcore Vol. 1"
-				  height="300"
-				  width="300"
-				  class="cover rounded-lg lg:w-[350px]"
-				/>
-				<h2 class="text-center text-xl sm:text-xl py-2 text-white">
-					Stand United
-				   </h2>
-				<div class="my-4">
-					<iframe class="w-[300px] h-[120px] lg:w-[300px] lg:h-[120px]" src="https://bandcamp.com/EmbeddedPlayer/album=108825840/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://fortherock.bandcamp.com/album/breaker-of-chains">Breaker of Chains by For The Rock</a></iframe>
-				</div>
-			  </div>
-			</div>
-			<div class="flex">
-			  <div class="bg-purple-800 p-2 rounded-lg">
-				<img
-				  src="https://ik.imagekit.io/boxhuwbys/for-the-rock-breaker-of-chains.jpg?updatedAt=1733182442794"
-				  alt="Beyond The Grave - All Things Christian Extreme Metal Vol. 2"
-				  height="300"
-				  width="300"
-				  class="cover rounded-lg lg:w-[350px]"
-				/>
-				<h2 class="text-center text-xl sm:text-xl py-2 text-white">
-					Breaker of Chains
-				  </h2>
-				<div class="my-4">
-					<iframe class="w-[300px] h-[120px] lg:w-[300px] lg:h-[120px]" src="https://bandcamp.com/EmbeddedPlayer/album=108825840/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://fortherock.bandcamp.com/album/breaker-of-chains">Breaker of Chains by For The Rock</a></iframe>
-				</div>
-			  </div>
-			</div>
-			<div class="flex">
-				<div class="bg-purple-800 p-2 rounded-lg">
-				  <img
-					src="https://ik.imagekit.io/boxhuwbys/for-the-rock-blueprint-for-life.jpg?updatedAt=1733182442713"
-					alt="Beyond The Grave - All Things Christian Extreme Metal Vol. 2"
-					height="300"
-					width="300"
-					class="cover rounded-lg lg:w-[350px]"
-				  />
-				  <h2 class="text-center text-xl sm:text-xl py-2 text-white">
-					Blueprint For Life
-				  </h2>
-				  <div class="my-4">
-					<iframe class="w-[300px] h-[120px] lg:w-[300px] lg:h-[120px]" src="https://bandcamp.com/EmbeddedPlayer/album=108825840/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://fortherock.bandcamp.com/album/breaker-of-chains">Breaker of Chains by For The Rock</a></iframe>
-				  </div>
-				</div>
-			  </div>
-			  <div class="flex">
-				<div class="bg-purple-800 p-2 rounded-lg">
-				  <img
-					src="https://ik.imagekit.io/boxhuwbys/for-the-rock-blueprint-for-life.jpg?updatedAt=1733182442713"
-					alt="Beyond The Grave - All Things Christian Extreme Metal Vol. 2"
-					height="300"
-					width="300"
-					class="cover rounded-lg lg:w-[350px]"
-				  />
-				  <h2 class="text-center text-xl sm:text-xl py-2 text-white">
-					Blueprint For Life
-				  </h2>
-				  <div class="my-4">
-					<iframe class="w-[300px] h-[120px] lg:w-[300px] lg:h-[120px]" src="https://bandcamp.com/EmbeddedPlayer/album=108825840/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://fortherock.bandcamp.com/album/breaker-of-chains">Breaker of Chains by For The Rock</a></iframe>
-				  </div>
-				</div>
-			  </div>
-			  <div class="flex">
-				<div class="bg-purple-800 p-2 rounded-lg">
-				  <img
-					src="https://ik.imagekit.io/boxhuwbys/for-the-rock-blueprint-for-life.jpg?updatedAt=1733182442713"
-					alt="Beyond The Grave - All Things Christian Extreme Metal Vol. 2"
-					height="300"
-					width="300"
-					class="cover rounded-lg lg:w-[350px]"
-				  />
-				  <h2 class="text-center text-xl sm:text-xl py-2 text-white">
-					Blueprint For Life
-				  </h2>
-				  <div class="my-4">
-					<iframe class="w-[250px] h-[120px] lg:w-[300px] lg:h-[120px]" src="https://bandcamp.com/EmbeddedPlayer/album=108825840/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://fortherock.bandcamp.com/album/breaker-of-chains">Breaker of Chains by For The Rock</a></iframe>
-				  </div>
-				</div>
-			  </div>
-			  <div class="flex">
-				<div class="bg-purple-800 p-2 rounded-lg">
-				  <img
-					src="https://ik.imagekit.io/boxhuwbys/for-the-rock-blueprint-for-life.jpg?updatedAt=1733182442713"
-					alt="Beyond The Grave - All Things Christian Extreme Metal Vol. 2"
-					height="250"
-					width="250"
-					class="cover rounded-lg lg:w-[350px]"
-				  />
-				  <h2 class="text-center text-xl sm:text-xl py-2 text-white">
-					Blueprint For Life
-				  </h2>
-				  <div class="my-4">
-					<iframe class="w-[250px] h-[120px] lg:w-[300px] lg:h-[120px]" src="https://bandcamp.com/EmbeddedPlayer/album=108825840/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://fortherock.bandcamp.com/album/breaker-of-chains">Breaker of Chains by For The Rock</a></iframe>
-				  </div>
-				</div>
-			  </div>
+		  <div class="flex flex-wrap justify-center md:grid grid-cols-3 gap-8">
+			<AlbumCard imgSrc="https://ik.imagekit.io/boxhuwbys/refiner-firewalker.webp?updatedAt=1733427214621" altText="Refiner - Firewalker" title="   Refiner - Firewalker [EP]" dlLink="https://refinermetal.bandcamp.com/album/firewalker"/>
+			<AlbumCard imgSrc="https://ik.imagekit.io/boxhuwbys/white-robe-nation-rebirth.webp" altText="For The Rock - White Robe Nation - Rebirth" title="White Robe Nation - Rebirth" dlLink="https://whiterobenation.bandcamp.com/track/rebirth"/>
+			<AlbumCard imgSrc="https://ik.imagekit.io/boxhuwbys/white-robe-nation-bride.jpg" altText="For The Rock - White Robe Nation - Bride" title="White Robe Nation - Bride" dlLink="https://whiterobenation.bandcamp.com/track/bride"/>
+			<AlbumCard imgSrc="https://ik.imagekit.io/boxhuwbys/white-robe-nation-parable.webp" altText="For The Rock - White Robe Nation - Parable[EP]" title="White Robe Nation - Parable[EP]" dlLink="https://whiterobenation.bandcamp.com/album/parable-ep"/>
+			<AlbumCard imgSrc="https://ik.imagekit.io/boxhuwbys/white-robe-nation-pandemic.jpg" altText="For The Rock - White Robe Nation - Pandemic" title="White Robe Nation - Pandemic" dlLink="https://whiterobenation.bandcamp.com/track/pandemic"/>
+			<AlbumCard imgSrc="https://ik.imagekit.io/boxhuwbys/white-robe-nation-prodigal.jpg" altText="For The Rock - White Robe Nation - Prodigal" title="White Robe Nation - Prodigal" dlLink="https://whiterobenation.bandcamp.com/track/prodigal"/>
+			<AlbumCard imgSrc="https://ik.imagekit.io/boxhuwbys/for-the-rock-stand-united.webp?updatedAt=1733181683597" altText="" title="For The Rock - Stand United" dlLink="https://fortherock.bandcamp.com/album/stand-united"/>
+			<AlbumCard imgSrc="https://ik.imagekit.io/boxhuwbys/for-the-rock-breaker-of-chains.jpg?updatedAt=1733182442794" altText="" title="For The Rock - Breaker of Chains" dlLink="https://fortherock.bandcamp.com/album/breaker-of-chains"/>
+			<AlbumCard imgSrc="https://ik.imagekit.io/boxhuwbys/for-the-rock-blueprint-for-life.jpg?updatedAt=1733182442713" altText="" title="For The Rock - Blueprint For Life" dlLink="https://fortherock.bandcamp.com/album/blueprint-for-life"/>
+			<AlbumCard imgSrc="https://ik.imagekit.io/boxhuwbys/for-the-rock-in-his-hands.webp" altText="For The Rock - In His Hands" title="For The Rock - In His Hands" dlLink="https://fortherock.bandcamp.com/album/in-his-hands"/>
+			<AlbumCard imgSrc="https://ik.imagekit.io/boxhuwbys/for-the-rock-new-discoveries.jpg" altText="For The Rock - New Discoveries" title="For The Rock - New Discoveries" dlLink="https://fortherock.bandcamp.com/album/new-discoveries"/>
+			<AlbumCard imgSrc="https://ik.imagekit.io/boxhuwbys/for-the-rock-burn-the-ships.jpg" altText="For The Rock - Burn the Ships" title="For The Rock - Burn the Ships" dlLink="https://fortherock.bandcamp.com/album/burn-the-ships"/>
+			<AlbumCard imgSrc="https://ik.imagekit.io/boxhuwbys/for-the-rock-songs-of-hope-for-a-new-era.webp" altText="For The Rock - Songs of Hope for a New Era" title="For The Rock - Songs of Hope for a New Era" dlLink="https://fortherock.bandcamp.com/album/songs-of-hope-for-a-new-era"/>
 		  </div>
 		</div>
 	  </section>

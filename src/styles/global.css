@@ -1,11 +1,11 @@
 :root {
     /* Add these styles to your global stylesheet, which is used across all site pages. You only need to do this once. All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
-    --primary: #ff6a3e;
-    --primaryLight: #ffba43;
+    --primary: #D3A617;
+    --primaryLight: #ecbd22;
     --secondary: #ffba43;
     --secondaryLight: #ffba43;
-    --headerColor: #1a1a1a;
-    --bodyTextColor: #4e4b66;
+    --headerColor: #fcfcfc;
+    --bodyTextColor: #fefefe;
     --bodyTextColorWhite: #fafbfc;
     /* 13px - 16px */
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
@@ -61,7 +61,7 @@ body {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: rgb(53, 53, 53);
+    background: rgb(26, 26, 26);
 }
 .bg-yellow-sp{
     background: #D3A617;
