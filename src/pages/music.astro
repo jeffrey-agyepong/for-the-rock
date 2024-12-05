@@ -1,4 +1,5 @@
 ---
+import PageBanner from '../components/Header/PageBanner.astro';
 import Hero from '../components/Hero/Hero.astro';
 import HomeAlbums from '../components/HomeAlbums/HomeAlbums.astro';
 import HomeBanner from '../components/HomeBanner/HomeBanner.astro';
@@ -8,9 +9,10 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
+	<PageBanner pageTitle="Music"/>
 	<section id="cs-contact" class="bg-black">
 		<div class="container max-w-screen-lg mx-auto">
-		  <div class="sm:flex justify-center gap-16">
+		  <div class="sm:grid grid-cols-3 gap-8">
 			<div class="flex my-8 sm:my-0">
 			  <div class="bg-purple-800 p-2 rounded-lg">
 				<img
@@ -18,13 +20,13 @@ import Layout from '../layouts/Layout.astro';
 				  alt="Beyond The Grave - All Things Christian Deathcore Vol. 1"
 				  height="300"
 				  width="300"
-				  class="cover rounded-lg lg:w-[500px]"
+				  class="cover rounded-lg lg:w-[350px]"
 				/>
-				<h2 class="text-center text-xl sm:text-3xl py-2 text-white">
+				<h2 class="text-center text-xl sm:text-xl py-2 text-white">
 					Stand United
 				   </h2>
 				<div class="my-4">
-					<iframe class="w-[300px] h-[120px] lg:w-[400px] lg:h-[120px]" src="https://bandcamp.com/EmbeddedPlayer/album=108825840/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://fortherock.bandcamp.com/album/breaker-of-chains">Breaker of Chains by For The Rock</a></iframe>
+					<iframe class="w-[300px] h-[120px] lg:w-[300px] lg:h-[120px]" src="https://bandcamp.com/EmbeddedPlayer/album=108825840/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://fortherock.bandcamp.com/album/breaker-of-chains">Breaker of Chains by For The Rock</a></iframe>
 				</div>
 			  </div>
 			</div>
@@ -35,13 +37,13 @@ import Layout from '../layouts/Layout.astro';
 				  alt="Beyond The Grave - All Things Christian Extreme Metal Vol. 2"
 				  height="300"
 				  width="300"
-				  class="cover rounded-lg lg:w-[500px]"
+				  class="cover rounded-lg lg:w-[350px]"
 				/>
-				<h2 class="text-center text-xl sm:text-3xl py-2 text-white">
+				<h2 class="text-center text-xl sm:text-xl py-2 text-white">
 					Breaker of Chains
 				  </h2>
 				<div class="my-4">
-					<iframe class="w-[300px] h-[120px] lg:w-[400px] lg:h-[120px]" src="https://bandcamp.com/EmbeddedPlayer/album=108825840/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://fortherock.bandcamp.com/album/breaker-of-chains">Breaker of Chains by For The Rock</a></iframe>
+					<iframe class="w-[300px] h-[120px] lg:w-[300px] lg:h-[120px]" src="https://bandcamp.com/EmbeddedPlayer/album=108825840/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://fortherock.bandcamp.com/album/breaker-of-chains">Breaker of Chains by For The Rock</a></iframe>
 				</div>
 			  </div>
 			</div>
@@ -52,13 +54,64 @@ import Layout from '../layouts/Layout.astro';
 					alt="Beyond The Grave - All Things Christian Extreme Metal Vol. 2"
 					height="300"
 					width="300"
-					class="cover rounded-lg lg:w-[500px]"
+					class="cover rounded-lg lg:w-[350px]"
 				  />
-				  <h2 class="text-center text-xl sm:text-3xl py-2 text-white">
+				  <h2 class="text-center text-xl sm:text-xl py-2 text-white">
 					Blueprint For Life
 				  </h2>
 				  <div class="my-4">
-					<iframe class="w-[300px] h-[120px] lg:w-[400px] lg:h-[120px]" src="https://bandcamp.com/EmbeddedPlayer/album=108825840/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://fortherock.bandcamp.com/album/breaker-of-chains">Breaker of Chains by For The Rock</a></iframe>
+					<iframe class="w-[300px] h-[120px] lg:w-[300px] lg:h-[120px]" src="https://bandcamp.com/EmbeddedPlayer/album=108825840/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://fortherock.bandcamp.com/album/breaker-of-chains">Breaker of Chains by For The Rock</a></iframe>
+				  </div>
+				</div>
+			  </div>
+			  <div class="flex">
+				<div class="bg-purple-800 p-2 rounded-lg">
+				  <img
+					src="https://ik.imagekit.io/boxhuwbys/for-the-rock-blueprint-for-life.jpg?updatedAt=1733182442713"
+					alt="Beyond The Grave - All Things Christian Extreme Metal Vol. 2"
+					height="300"
+					width="300"
+					class="cover rounded-lg lg:w-[350px]"
+				  />
+				  <h2 class="text-center text-xl sm:text-xl py-2 text-white">
+					Blueprint For Life
+				  </h2>
+				  <div class="my-4">
+					<iframe class="w-[300px] h-[120px] lg:w-[300px] lg:h-[120px]" src="https://bandcamp.com/EmbeddedPlayer/album=108825840/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://fortherock.bandcamp.com/album/breaker-of-chains">Breaker of Chains by For The Rock</a></iframe>
+				  </div>
+				</div>
+			  </div>
+			  <div class="flex">
+				<div class="bg-purple-800 p-2 rounded-lg">
+				  <img
+					src="https://ik.imagekit.io/boxhuwbys/for-the-rock-blueprint-for-life.jpg?updatedAt=1733182442713"
+					alt="Beyond The Grave - All Things Christian Extreme Metal Vol. 2"
+					height="300"
+					width="300"
+					class="cover rounded-lg lg:w-[350px]"
+				  />
+				  <h2 class="text-center text-xl sm:text-xl py-2 text-white">
+					Blueprint For Life
+				  </h2>
+				  <div class="my-4">
+					<iframe class="w-[250px] h-[120px] lg:w-[300px] lg:h-[120px]" src="https://bandcamp.com/EmbeddedPlayer/album=108825840/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://fortherock.bandcamp.com/album/breaker-of-chains">Breaker of Chains by For The Rock</a></iframe>
+				  </div>
+				</div>
+			  </div>
+			  <div class="flex">
+				<div class="bg-purple-800 p-2 rounded-lg">
+				  <img
+					src="https://ik.imagekit.io/boxhuwbys/for-the-rock-blueprint-for-life.jpg?updatedAt=1733182442713"
+					alt="Beyond The Grave - All Things Christian Extreme Metal Vol. 2"
+					height="250"
+					width="250"
+					class="cover rounded-lg lg:w-[350px]"
+				  />
+				  <h2 class="text-center text-xl sm:text-xl py-2 text-white">
+					Blueprint For Life
+				  </h2>
+				  <div class="my-4">
+					<iframe class="w-[250px] h-[120px] lg:w-[300px] lg:h-[120px]" src="https://bandcamp.com/EmbeddedPlayer/album=108825840/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://fortherock.bandcamp.com/album/breaker-of-chains">Breaker of Chains by For The Rock</a></iframe>
 				  </div>
 				</div>
 			  </div>
@@ -185,7 +238,7 @@ import Layout from '../layouts/Layout.astro';
 		.cs-right-section {
 		  width: 40%;
 		  max-width: (542/16rem);
-		  /* changes to 578px at 1300px wide */
+		  /* changes to 578px at 1250px wide */
 		  height: (686/16rem);
 		  /* prevents flexbox from squishing it */
 		  flex: none;
@@ -204,7 +257,7 @@ import Layout from '../layouts/Layout.astro';
 	  }
 	}
   
-	/* Small Desktop - 1300px */
+	/* Small Desktop - 1250px */
 	@media only screen and (min-width: 81.25em) {
 	  #cs-contact {
 		#cs-form {
