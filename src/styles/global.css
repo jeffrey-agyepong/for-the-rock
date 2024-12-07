@@ -60,8 +60,11 @@ body {
                             
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     background: rgb(26, 26, 26);
+}
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif !important; 
 }
 .bg-yellow-sp{
     background: #D3A617;
